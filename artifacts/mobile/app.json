@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Cannula Tracker",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "mobile",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0d1117"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#0d1117"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png",
+      "bundler": "metro",
+      "backgroundColor": "#0d1117",
+      "themeColor": "#00d4aa",
+      "name": "Cannula Tracker",
+      "shortName": "Cannula",
+      "description": "Track your cannula insertion and get 72-hour countdown reminders",
+      "startUrl": "/",
+      "display": "standalone",
+      "orientation": "portrait"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://replit.com/"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
